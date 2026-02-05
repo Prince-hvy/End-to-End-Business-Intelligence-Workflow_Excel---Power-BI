@@ -70,21 +70,45 @@ Connection: Established a relationship between date_dim_table[Sale_Date] and fac
 ![image](/Images/5.png)
 
 ## ❓ Stakeholder Question & Answer
-**The Scenario:** A stakeholder wanted a deep dive into the performance and behavior of our different selling platforms.
+### 🧠 Stakeholder Context
 
-### Stakeholder Question:
-"I want insights on channel behavior. Specifically, I need to know what each channel is like in terms of customer loyalty. Are we actually building a base in our physical stores, or are they just one-time walk-ins?"
+The operations and sales leadership wanted to better understand channel behavior, not just raw sales numbers. Specifically, they were concerned about whether each channel was building long-term customer value or simply relying on one-time transactions.
 
-### My Data-Driven Answer:
-Based on the dashboard analysis, we can see that our physical stores are actually powerhouses for loyalty. Here is the breakdown:
+### 📣 Stakeholder Question
 
-Retail Customer Base: In our Retail channel, we have 6.5k New Customers and 6.4k Returning Customers. This nearly 1:1 ratio is incredible—it proves that for almost every person who walks in for the first time, another is coming back for a second visit.
+**Are we more dependent on new customers in Online or Retail?
+And which channel is actually driving sustainable profitability?**
 
-Profitability: We are generating $6.65M in Total Net Profit, and while Retail is excellent for loyalty, the Online channel is where we see our highest profit efficiency.
+### 📊 Data-Driven Findings
 
-Volume: We have successfully moved 26k units, with a total Retention Rate of 50% across the board.
+Using the finalized Power BI dashboard, several key insights emerged:
 
-**My Recommendation:** Since we have such a strong balance in Retail (6.5k vs 6.4k), we should launch a 'Returning Customer' discount in Retail to push that 6.4k higher, while continuing to use the Online channel as our primary profit driver.
+- Customer Retention:
+The overall retention rate sits at 50%, indicating a balanced mix of new and returning customers across the business.
+
+- Retail Channel Behavior:
+Retail shows an almost 1:1 ratio of New (≈6.5K) to Returning Customers (≈6.4K).
+This suggests that physical stores are successfully driving repeat purchases, not just walk-in traffic.
+
+- Online Channel Behavior:
+Online attracts slightly more new customers, but has a lower proportion of returning customers compared to Retail.
+This indicates stronger acquisition performance, but weaker long-term loyalty.
+
+- Profitability Comparison:
+
+> Online generates higher total sales (~30.1M) and higher net profit (~3.27M)
+
+> Retail follows closely with ~29.4M in sales and ~3.21M in net profit
+
+> While both channels are profitable, Online is the more efficient profit driver, whereas Retail excels in customer retention.
+
+### 📌 Recommendation to Stakeholders
+
+- Introduce returning-customer incentives in Retail to further strengthen loyalty.
+
+- Continue leveraging Online for high-margin sales and customer acquisition.
+
+- Treat the two channels as complementary, not competing—each serves a distinct business goal.
 
 ## 🌟 Skills Showcased
 - ETL (Extract, Transform, Load): Mastering Power Query to automate the cleaning of highly inconsistent data.
